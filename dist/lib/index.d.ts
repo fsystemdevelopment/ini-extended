@@ -1,0 +1,1 @@
+export { ini } from "./iniExt";
