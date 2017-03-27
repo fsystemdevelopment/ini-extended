@@ -1,0 +1,23 @@
+{
+  "name": "ini-extended",
+  "version": "1.0.0",
+  "description": "An extension of npm ini that strip comments",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/garronej/ini-extended.git"
+  },
+  "main": "./dist/lib/index.js",
+  "types": "./dist/lib/index.d.ts",
+  "scripts": {
+    "tsc": "./node_modules/.bin/tsc -p ./tsconfig.json"
+  },
+  "author": "Joseph Garrone",
+  "license": "MIT",
+  "dependencies": { 
+    "ini": "^1.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^4.0.0",
+    "typescript": "^2.1.4"
+  }
+}

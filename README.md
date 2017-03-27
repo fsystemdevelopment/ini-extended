@@ -1,2 +1,5 @@
 # ini-extended
-A version of npm ini that strip comments
+
+````JavaScript
+let config = ini.parseStripWhitespace(readFileSync(confPath, "utf8"))
+````
