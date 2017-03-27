@@ -1,6 +1,6 @@
 import * as iniSource from "ini";
 
-export let ini= {
+export const ini= {
     ...iniSource,
     parseStripWhitespace: (
         initString => makeSafeConfig(iniSource.parse(initString))
