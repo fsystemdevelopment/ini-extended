@@ -15,7 +15,7 @@ function makeSafeConfig(config) {
         var key = _a[_i];
         switch (typeof config[key]) {
             case "string":
-                config[key] = config[key].replace(/\ +$/, "");
+                config[key] = config[key].replace(/[\ \t]+$/, "");
                 break;
             case "object":
                 makeSafeConfig(config[key]);
